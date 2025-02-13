@@ -33,3 +33,5 @@ We have seen how Continuous Integration automates the process of building, testi
 If the deployment to production is a manual step. In that case, the process is called Continuous Delivery whereas if the deployment to the production environment is automated, it is referred to as Continuous Deployment.
 
 ![CI/CD Workflow](https://media.geeksforgeeks.org/wp-content/uploads/20201103135931/CICD.PNG)
+
+Source: https://www.geeksforgeeks.org/what-is-ci-cd/
