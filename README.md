@@ -25,9 +25,11 @@ Below is a pictorial representation of a CI pipeline– the workflow from develo
 Once the developer commits their code to a version control system like Git, it triggers the CI pipeline which fetches the changes and runs automated build and unit tests. Based on the status of the step, the server then notifies the concerned developer whether the integration of the new code to the existing code base was a success or a failure.
 This helps in finding and addressing the bugs much more quickly, makes the team more productive by freeing the developers from manual tasks, and helps teams deliver updates to their customers more frequently. It has been found that integrating the entire development cycle can reduce the developer’s time involved by ~25 – 30%.
 
+![CI Workflow](https://media.geeksforgeeks.org/wp-content/uploads/20210507232819/CIFlow.jpg)
+
 # CI and CD Workflow
 The below image describes how Continuous Integration combined with Continuous Delivery helps quicken the software delivery process with lower risks and improved quality.
 We have seen how Continuous Integration automates the process of building, testing, and packaging the source code as soon as it is committed to the code repository by the developers. Once the CI step is completed, the code is deployed to the staging environment where it undergoes further automated testing (like Acceptance testing, Regression testing, etc.). Finally, it is deployed to the production environment for the final release of the product.
 If the deployment to production is a manual step. In that case, the process is called Continuous Delivery whereas if the deployment to the production environment is automated, it is referred to as Continuous Deployment.
 
-Feature 1: Lorem ipsum
+![CI/CD Workflow](https://media.geeksforgeeks.org/wp-content/uploads/20201103135931/CICD.PNG)
